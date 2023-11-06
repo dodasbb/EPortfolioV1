@@ -375,10 +375,15 @@ nav {
 
 .project__description--title,
 .project__description--sub-title,
+.project__description--wip,
 .project__description--paragraph,
 .project__description--link {
     text-align: left;
     color: white;
+}
+
+.work-in-progress {
+    cursor: not-allowed;
 }
 
 /* FOOTER */

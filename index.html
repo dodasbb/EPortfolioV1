@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./languages.js"></script>
   </head>
 
   <body>
@@ -20,9 +21,9 @@
         <ul class="nav__link--list">
           <li class="nav__link">
             <a
-              href="#languages"
+              href="#technologies"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Languages</a
+              >Technologies</a
             >
           </li>
           <li class="nav__link">
@@ -87,83 +88,165 @@
         </div>
       </div>
     </section>
-    <section id="languages">
+    <section id="technologies">
       <div class="container">
         <div class="row">
           <h1 class="section__title">
-            Here are my <span class="textcolor--blue">languages</span>
+            Here are my <span class="textcolor--blue">technology stacks</span>
           </h1>
-          <div class="language__list">
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                  alt="HTML Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">HTML5</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-                  alt="CSS Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">CSS3</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-                  alt="Javascript Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">Javascript</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-                  alt="React Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">React.js</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256"
-                  alt="React Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">Firebase</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-512/free-java-22-225997.png?f=webp&w=256"
-                  alt="Java Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">Java</span>
-            </div>
-            <div class="language">
-              <figure class="language__img--wrapper">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-512/free-c-57-1175191.png?f=webp&w=256"
-                  alt="C Logo"
-                  class="language__img"
-                />
-              </figure>
-              <span class="language__name">C</span>
-            </div>
+          <div class="language__stacks" id="languagestacks">
+<!--            <div class="language__stack">-->
+<!--              <h1 class="lanaguage__stack&#45;&#45;title">Frontend</h1>-->
+<!--              <div class="language__list">-->
+<!--                Loop through all frontend elements in languages.js-->
+
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"-->
+<!--                      alt="HTML Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">HTML5</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"-->
+<!--                      alt="CSS Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">CSS3</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"-->
+<!--                      alt="Javascript Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Javascript</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"-->
+<!--                      alt="React Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">React.js</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256"-->
+<!--                      alt="Firebase Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Firebase</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-512/free-java-22-225997.png?f=webp&w=256"-->
+<!--                      alt="Java Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Java</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                      src="https://cdn.iconscout.com/icon/free/png-512/free-c-57-1175191.png?f=webp&w=256"-->
+<!--                      alt="C Logo"-->
+<!--                      class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">C</span>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="language__stack">-->
+<!--              <h1 class="lanaguage__stack&#45;&#45;title">Backend</h1>-->
+<!--              <div class="language__list">-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"-->
+<!--                            alt="HTML Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">HTML5</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"-->
+<!--                            alt="CSS Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">CSS3</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"-->
+<!--                            alt="Javascript Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Javascript</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"-->
+<!--                            alt="React Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">React.js</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256"-->
+<!--                            alt="React Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Firebase</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-512/free-java-22-225997.png?f=webp&w=256"-->
+<!--                            alt="Java Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">Java</span>-->
+<!--                </div>-->
+<!--                <div class="language">-->
+<!--                  <figure class="language__img&#45;&#45;wrapper">-->
+<!--                    <img-->
+<!--                            src="https://cdn.iconscout.com/icon/free/png-512/free-c-57-1175191.png?f=webp&w=256"-->
+<!--                            alt="C Logo"-->
+<!--                            class="language__img"-->
+<!--                    />-->
+<!--                  </figure>-->
+<!--                  <span class="language__name">C</span>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
           </div>
         </div>
       </div>
@@ -275,3 +358,45 @@
     </footer>
   </body>
 </html>
+
+
+<script>
+  function GenerateLanguageStacks() {
+    let stacksContainer = document.getElementById("languagestacks");
+    let stacksHTML = '';
+
+
+    for (let category in languages) {
+      if (languages.hasOwnProperty(category)) {
+        stacksHTML += `
+        <div class="language__stack">
+          <h1 class="lanaguage__stack--title">${category}</h1>
+          <div class="language__list">
+      `;
+
+        languages[category].forEach(language => {
+          stacksHTML += `
+          <div class="language">
+            <figure class="language__img--wrapper">
+              <img
+                src="${language.imgSrc}"
+                alt="${language.alt}" || language.name + ' Logo'}"
+                class="language__img"
+              />
+            </figure>
+            <span class="language__name">${language.name}</span>
+          </div>
+        `;
+        });
+
+        stacksHTML += `
+          </div>
+        </div>
+      `;
+      }
+      stacksContainer.innerHTML = stacksHTML;
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', GenerateLanguageStacks);
+</script>

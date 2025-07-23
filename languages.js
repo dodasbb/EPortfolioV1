@@ -2,85 +2,83 @@ const languages = {
     "Languages": [
         {
             name: 'TypeScript',
-            imgSrc: '/assets/TechIcons/typescript.png',
+            imgSrc: './assets/TechIcons/typescript.png',
             alt: 'TypeScript Logo',
         },
         {
             name: 'JavaScript',
-            imgSrc: '/assets/TechIcons/javascript.svg',
+            imgSrc: './assets/TechIcons/javascript.svg',
             alt: 'JavaScript Logo',
         },
         {
             name: 'Python',
-            imgSrc: '/assets/TechIcons/python.webp',
+            imgSrc: './assets/TechIcons/python.webp',
             alt: 'Python Logo',
         },
         {
             name: 'Java',
-            imgSrc: '/assets/TechIcons/java.webp',
+            imgSrc: './assets/TechIcons/java.webp',
             alt: 'Java Logo',
         },
         {
             name: 'C',
-            imgSrc: '/assets/TechIcons/c.webp',
+            imgSrc: './assets/TechIcons/c.webp',
             alt: 'C Logo',
         },
         {
             name: 'C++',
-            imgSrc: '/assets/TechIcons/cpp.png',
+            imgSrc: './assets/TechIcons/cpp.png',
             alt: 'C++ Logo',
         },
         {
             name: 'HTML5',
-            imgSrc: '/assets/TechIcons/html5.png',
+            imgSrc: './assets/TechIcons/html5.png',
             alt: 'HTML5 Logo',
         },
         {
             name: 'CSS3',
-            imgSrc: '/assets/TechIcons/css3.webp',
+            imgSrc: './assets/TechIcons/css3.webp',
             alt: 'CSS3 Logo',
-        },
-        
-        
-        
-        
+        },              
     ],
+
     "Frameworks": [
         {
             name: 'React.js',
-            imgSrc: '/assets/TechIcons/react.webp',
+            imgSrc: './assets/TechIcons/react.webp',
             alt: 'React.js Logo',
         },
         {
             name: 'React Native',
-            imgSrc: '/assets/TechIcons/reactnative.svg',
+            imgSrc: './assets/TechIcons/reactnative.svg',
             alt: 'React Native Logo',
         },
         {
             name: 'Node.js',
-            imgSrc: '/assets/TechIcons/nodejs.svg',
+            imgSrc: './assets/TechIcons/nodejs.svg',
             alt: 'Node.js Logo',
         },
         {
             name: 'Next.js',
-            imgSrc: '/assets/TechIcons/nextjs.svg',
+            imgSrc: './assets/TechIcons/nextjs.svg',
             alt: 'Next.js Logo',
         },
         {
             name: 'Prisma',
-            imgSrc: '/assets/TechIcons/prisma.svg',
+            imgSrc: './assets/TechIcons/prisma.svg',
             alt: 'Prisma Logo',
         },
         {
             name: 'Tailwind CSS',
-            imgSrc: '/assets/TechIcons/tailwind.png',
+            imgSrc: './assets/TechIcons/tailwind.png',
             alt: 'Tailwind Logo',
         },
     ],
+
     "Cloud & Tools": [
         {
             name: 'AWS',
-            imgSrc: '/assets/TechIcons/aws.svg',
+            imgSrc: './assets/TechIcons/aws.svg',
             alt: 'AWS Logo',
         },
         {
@@ -90,20 +88,18 @@ const languages = {
         },
         {
             name: 'PostgreSQL',
-            imgSrc: '/assets/TechIcons/postgres.svg',
+            imgSrc: './assets/TechIcons/postgres.svg',
             alt: 'PostgreSQL Logo',
         },
         {
             name: 'Firebase',
-            imgSrc: '/assets/TechIcons/firebase.webp',
+            imgSrc: './assets/TechIcons/firebase.webp',
             alt: 'Firebase Logo',
         },
         {
             name: 'Google Analytics',
-            imgSrc: '/assets/TechIcons/googleanalytics.svg',
+            imgSrc: './assets/TechIcons/googleanalytics.svg',
             alt: 'Google Analytics Logo',
-        },
-        
-        
+        },     
     ],
 };

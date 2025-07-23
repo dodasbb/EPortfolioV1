@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Denis Doda's E-Portfolio</title>
     <link rel="stylesheet" href="./styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="./assets/web.png"/>
-    <script
-      src="https://kit.fontawesome.com/c8e4d183c2.js"
-      crossorigin="anonymous"
-    ></script>
+
     <script src="./languages.js"></script>
   </head>
 
@@ -63,16 +61,16 @@
             </p>
             <div class="about-me__links">
               <a href="mailto:denis.doda03@gmail.com" class="about-me__link">
-                <i class="far fa-envelope"></i>
+                <i class="fa fa-envelope"></i>
               </a>
               <a href="https://github.com/dodasbb" target="_blank" class="about-me__link">
-                <i class="fab fa-github"></i>
+                <i class="fa fa-github fa-lg"></i>
               </a>
               <a href="https://www.linkedin.com/in/ddoda/" target="_blank" class="about-me__link">
-                <i class="fab fa-linkedin"></i>
+                <i class="fa fa-linkedin"></i>
               </a>
-              <a href="./assets/ResumeDenisDoda.pdf" target="_blank" class="about-me__link">
-                <i class="fas fa-file-pdf"></i>
+              <a href="./assets/Denis_Doda_Resume.pdf" target="_blank" class="about-me__link">
+                <i class="fa fa-file"></i>
               </a>
             </div>
           </div>
@@ -105,29 +103,59 @@
           </h1>
           <ul class="project__list">
             <li class="project"> 
+            <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/Project2.PNG"
-                  class="project__img"
-                  alt="Project Template"
+                        src="./assets/Project3.png"
+                        class="project__img"
+                        alt="Project Template"
+                />
+                <div class="project__description">
+                  <h3 class="project__description--title">Real Journey Fitness</h3>
+                  <h4 class="project__description--sub-title">Next.js, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma, Docker</h4>
+                  <h5 class="project__description--wip">(In Progress - Follow updates on the live website!)</h5>
+                  <p class="project__description--paragraph">
+                    Real Journey Fitness is an up-and-coming fitness brand.
+                    This project is full stack, with front-end being the Next.js
+                    framework, a server sided React.js variant. The back-end is coded
+                    in PostgreSQL, which is run on Docker, communicated through the
+                    Prisma ORM. This is currently one of my most daunting projects!
+                  </p>
+                  <div class="project__description--links">
+<!--                    <a href="https://github.com/dodasbb/RealJourneyFitness" target="_blank" class="project__description&#45;&#45;link">-->
+<!--                      <i class="fa fa-github fa-lg"></i>-->
+<!--                    </a>-->
+                    <a href="https://real-journey-fitness.vercel.app/" target="_blank" class="project__description--link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                        src="./assets/Project2.PNG"
+                        class="project__img"
+                        alt="Project Template"
                 />
                 <div class="project__description">
                   <h3 class="project__description--title">Altitude Motors</h3>
                   <h4 class="project__description--sub-title">HTML5, CSS3, JavaScript, React.js</h4>
                   <!-- <h5 class="project__description--wip">(In Progress - Follow updates on the Github!)</h5> -->
                   <p class="project__description--paragraph">
-                    Altitude Motors is a mock online exotic car dealership. 
-                    Coded fully in the JavaScript framework known as React.js, power 
-                    and visual appeal is the goal for this project. Utilizing React 
-                    routes and hooks, this website is fully dynamic and responsive 
+                    Altitude Motors is a mock online exotic car dealership.
+                    Coded fully in the JavaScript framework known as React.js, power
+                    and visual appeal is the goal for this project. Utilizing React
+                    routes and hooks, this website is fully dynamic and responsive
                     to all screen resolutions.
                   </p>
                   <div class="project__description--links">
                     <a href="https://github.com/dodasbb/AltitudeCarWebsite" target="_blank" class="project__description--link">
-                      <i class="fab fa-github"></i>
+                      <i class="fa fa-github fa-lg"></i>
                     </a>
                     <a href="https://dodasbb.github.io/AltitudeCarWebsite/" target="_blank" class="project__description--link">
-                      <i class="fas fa-link"></i>
+                      <i class="fa fa-link"></i>
                     </a>
                   </div>
                 </div>
@@ -152,15 +180,17 @@
                   </p>
                   <div class="project__description--links">
                     <a href="https://github.com/dodasbb/LibraryECommerceProject" target="_blank" class="project__description--link">
-                      <i class="fab fa-github"></i>
+                      <i class="fa fa-github fa-lg"></i>
                     </a>
                     <a href="https://dodasbb.github.io/LibraryECommerceProject/" target="_blank" class="project__description--link">
-                      <i class="fas fa-link"></i>
+                      <i class="fa fa-link"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </li>
+
+
           </ul>
         </div>
       </div>
@@ -198,7 +228,7 @@
           link__hover-effect--white
           " target="_blank">Resume</a>
         </div>
-        <div class="footer__copyright">Copyright © 2023 Denis Doda</div>
+        <div class="footer__copyright">Copyright © 2024 Denis Doda</div>
       </div>
     </footer>
   </body>

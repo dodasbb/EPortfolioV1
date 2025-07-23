@@ -200,7 +200,8 @@ nav {
 
 .about-me__link {
     font-size: 20px;
-    color: #2725bd;
+    /*color: #2725bd;*/
+    color: black;
     padding: 0 16px;
 }
 

@@ -83,7 +83,7 @@ const languages = {
         },
         {
             name: 'Docker',
-            imgSrc: '/assets/TechIcons/docker.png',
+            imgSrc: './assets/TechIcons/docker.png',
             alt: 'Docker Logo',
         },
         {
